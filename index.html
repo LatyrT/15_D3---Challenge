@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <title>D3Times</title>
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="03_Css/style.css">
-  <link rel="stylesheet" href="03_Css/d3Style.css">
+  <link rel="stylesheet" href="002-Code/03_Css/style.css">
+  <link rel="stylesheet" href="002-Code/03_Css/d3Style.css">
+
 </head>
 
 <body>
@@ -18,124 +18,99 @@
   <!-- ********* Header *************-->
   <!-- ******************************-->
   <header>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 jumbotron text-center">
-            <h1>D3 Challenge</h1>
-            <h3>Use the interactive chart below to explore the dataset</h3>
-            <h4>Click on any "x" or "y" label to select the preferred dataset.</h4>
-          </div>
+    <div class="container-fluid">
+      <section class="row">
+        <div class="col-md-12 jumbotron text-center">
+          <h1>D3 Challenge</h1>
+          <h3>Use the interactive chart below to explore the dataset</h3>
+          <h4>Click on any "x" or "y" label to select the preferred dataset.</h4>
         </div>
-      </div>
-    </section>
-      
+      </section>
+    </div>
   </header>
 
   <!-- ******************************-->
   <!-- *********  Main  *************-->
   <!-- ******************************-->
-  <main>
-
-    <section>
-      <div class="container">
-        <img src="03_Css/healthRiskImage.png" id="image">
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="col-xs-12 col-md-12">
-          <h1>D3 Time</h1>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="col-xs-12  col-md-12">
-          <div id="scatterArea">
-            <!-- ******** Insert Scatter Plot ********* -->
+    <div class="container">
+      <section>
+        <div class="container" id='separator_1'>
+          <div class="row" >
+            <div class="col-xs-12  col-md-12">
+              <img src="002-Code/03_Css/healthRiskImage.png" id="image">
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section>
-      <div class="container">
-        <div class="col-xs-12  col-md-12">
-          <div class="article">
-            <h2>Correlations Discovered Between Health Risks and Age, Income</h2>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
-              quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-              ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
-              quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-              ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
-              quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-              ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+      <section>
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h1>D3Times</h1>
           </div>
         </div>
-      </div> 
-    </section>
+      </section>
 
-    <section>
-      <div class="container" id='separator'>
-        <div class="row" >
-          <div class="col-xs-12  col-md-12"></div>
+      <section>
+        <div class="row">
+          <div class="col-xs-12  col-md-12">
+
+            <div id="scatterArea">
+              <!-- ******** Insert Scatter Plot ********* -->
+
+            </div>
+
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-  </main>
-    
+      <section>
+        <div class="row">
+          <div class="col-xs-12  col-md-12">
+            <div class="article">
+              <h2>Correlations Discovered Between Health Risks and Age, Income</h2>
+              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
+                quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+                ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 
+              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
+                quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+                ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 
-  <!-- *******************************-->
-  <!-- ********** Footer  ************-->
-  <!-- *******************************-->
-  <footer>
-    <section>
-      <div class="container">
-        <hr>
-        <div class="col-md-12 jumbotron text-center" id="page-footer">
-          <h3> <strong> Copyright ©  Latyr | September, 2020</strong></h3>
-          <p id="contact-info"> 
-            <a> <strong> Contact: </strong>  </a>
-            <a href="mailto: latyr.kwasi.thiao@gmail.com">
-              <strong> latyr.kwasi.thiao@gmail.com  </strong>
-            </a>
-            <a> | </a>
-            <a href="https://linkedin.com/in/latyrthiao" target="blank"> <strong> LinkedIn </strong></a>
-            <a> | </a>
-            <a href="https://github.com/LatyrT" target="blank"> <strong> GitHub </strong> </a>
-            <a> | </a>
-            <a href="https://public.tableau.com/profile/latyr#!/" target="blank"> <strong> Tableau </strong> </a>
-          </p>
-          
-          <p id="location">
-            <strong> Toronto, ON </strong>
-          </p>
+              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
+                quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+                ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            </div>
+          </div>
+        </div> 
+      </section>
+
+      <section>
+        <div class="container" id='separator'>
+          <div class="row" >
+            <div class="col-xs-12  col-md-12">
+
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-      
-  </footer>
-  
+      </section>
+    </div>
 
+
+  <!-- Footer-->
+  <div id="footer">
+    <p><strong> &copy; Latyr - June, 2020 </strong></p>
+  </div>
+
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script> -->
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
-  
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
-  <script type="text/javascript" src="02_Data_Source/data.csv"></script>
-  <script type="text/javascript" src="04_Js/app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+  <script type="text/javascript" src="002-Code/02_Data_Source/data.csv"></script>
+  <script type="text/javascript" src="002-Code/04_Js/app.js"></script>
 
 </body>
 
