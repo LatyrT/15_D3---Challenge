@@ -1,4 +1,4 @@
-# **Employee Database: A Mystery in Two Parts**
+# **Data Journalism and D3**
 
 In this assignment, the objective is to create scatter plot displaying several 'X' and 'Y' options. 
 The scatter plot must allow users to select the preferred dataset from both axes, by clicking on its name.
