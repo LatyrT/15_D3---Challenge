@@ -49,7 +49,7 @@ The following tools and coding languages were used:
 ## **5. Data Source(s)**
 
 The data used as input is coming from the following sources:
-* Link to .csv file [here](02_Data_Source/data.json)
+* Link to .csv file [here](02_Data_Source/data.csv)
 
 
 ## **6. Run the code**
