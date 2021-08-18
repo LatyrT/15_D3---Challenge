@@ -4,7 +4,7 @@ In this assignment, the objective is to create scatter plot displaying several '
 The scatter plot must allow users to select the preferred dataset from both axes, by clicking on its name.
 
 <p align="center">
-  <img src="bacteria.jpg">
+  <img src="03_Css/healthRiskImage.png">
 </p>  
 
 ## **1. Authors**
@@ -15,7 +15,7 @@ This project was created and authored by:
 
 ## **2. Requirements / Specifications**
 
-The [business & technical requirements](001-Instructions) that must be met by the solution.
+The [business & technical requirements](01_Instructions) that must be met by the solution.
 
 ## **3. Prerequisites**
 
@@ -49,7 +49,7 @@ The following tools and coding languages were used:
 ## **5. Data Source(s)**
 
 The data used as input is coming from the following sources:
-* Link to .json file [here](002-Code/Sample/samples.json)
+* Link to .csv file [here](02_Data_Source/data.json)
 
 
 ## **6. Run the code**
@@ -57,8 +57,8 @@ The data used as input is coming from the following sources:
 ### **Step 1: The code is located here**
 The code is available as follows:
 * Part 1: [HTML](index.html)
-* Part 2: [JavaScript](002-Code/JavaScript/app.js)
-* Part 2: [CSS](002-Code/Style/styles.css)
+* Part 2: [JavaScript](04_Js/app.js)
+* Part 3: [CSS](03_Css/style.css) & [CSS](03_Css/d3Style.css)
 
 
 ### **Step 2: Extract all files & run the code**
@@ -66,9 +66,9 @@ The code is available as follows:
 * Open VS Code or your IDE
 * Choose 'File > Open Folder'
 * Select the path to the folder located 1 level above the folder where the [HTML](index.html) is located. 
-    * Example if your index file is located: Documents/.../Folder_Level_1_Above/14_Belly_Button_Diversity_JavaScript
+    * Example if your index file is located: Documents/.../Folder_Level_1_Above/15_Health_Risk_JavaScript_D3
     * Select: Folder_Level_1_Above
-* Right click the folder that contains your [HTML](index.html), it should be named: 14_Belly_Button_Diversity_JavaScript
+* Right click the folder that contains your [HTML](index.html), it should be named: 15_Health_Risk_JavaScript_D3
 * Select: Open in integrated terminal
 * It should open the terminal
 * In the terminal do the following:
