@@ -31,7 +31,7 @@ Not applicable
 The assumption here is that your computer is running on Windows 10.
 Feel free to adjust if you are using a Mac OS or any other operating system.
 
-What things you need to install the software and how to install them:
+What software do you need and how to install them?
 
 * Any web browser (Chrome, ...) 
 * Anaconda/Python terminal
@@ -72,7 +72,8 @@ The code is available as follows:
 * Select: Open in integrated terminal
 * It should open the terminal
 * In the terminal do the following:
-    * Type the command 'conda activate Your_Environment_Name' ; Your_Environment_Name is the name of your Python environment you defined
+    * Type the command 'conda activate Your_Environment_Name'
+    * Your_Environment_Name is the name of your Python environment you defined
     * Run the server by typing the following: 'Python -m http.server'
     * Then, copy/paste this url (http://localhost:8000/) into your browser and press enter
 * The page should load the charts and you can now selection menu or dropdown list to show the desired information
@@ -82,7 +83,7 @@ The code is available as follows:
 ## **7. User Acceptance Testing**
 
 See related document to learn more about acceptence criteria:  
-[UAT Excel File](003-User_Acceptance_Testing/User_Acceptance_Testing.xlsx)
+* [See instructions](01_Instructions)
 
 ## **8. Deployment**
 
